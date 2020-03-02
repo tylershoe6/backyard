@@ -1,0 +1,55 @@
+@import "partials/colors";
+@import "partials/fonts";
+@import "partials/mixins";
+html {
+  width: 100%;
+}
+
+body.main {
+  font-family: $bodyLetters;
+  color: $myBlack;
+  font-size: $bodySize;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $titleLetters;
+  text-align: center;
+}
+
+h1 {
+  font-size: $mainTitleSize;
+}
+
+@mixin hugetext {
+  font-size: 4em;
+  color: red;
+}
+
+@mixin subTitle {
+  background-color: $myBlack;
+  color: $myWhite;
+  border-radius: 10px;
+  width: 40%;
+  display: inline-block;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.positioner {
+  /*position: relative;
+  left: 50%;*/
+}
+
+.positioner h2 {
+
+}
+
+h2 {
+  @include subTitle;
+}
+
+.huge {
+  @include hugetext;
+  text-decoration: underline;
+}

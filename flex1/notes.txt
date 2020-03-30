@@ -1,0 +1,6 @@
+Notes March 28, 2020 - Tyler S.
+
+Flexbox assignment
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://yoksel.github.io/flex-cheatsheet/
+http://flexbox.malven.co/

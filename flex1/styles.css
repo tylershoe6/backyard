@@ -1,0 +1,62 @@
+html {
+
+}
+
+body {
+
+}
+
+#main {
+  margin: 1em 6em 3em 6em;
+  /* margin-top: 1em;
+  margin-right: 6em; */
+  border: 1px solid #ddd;
+  background-color: #aad;
+  padding: 0 3em 2em 3em;
+}
+
+/* flex container */
+nav.horizontal ul {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: stretch;
+
+}
+
+nav.horizontal ul li {
+  /* flex items */
+  list-style: none;
+  flex-basis: 20%;
+}
+
+nav.horizontal ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ededed;
+  display: block;
+  padding: 2px 8px;
+  background-color: #222;
+}
+
+nav.horizontal ul {
+  margin: 0;
+}
+
+#about {
+  order: 99;
+}
+
+#label {
+  width: 20%;
+  margin-right: 40%;
+  margin-left: 40%;
+  color: #ededed;
+  background-color: #222;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}

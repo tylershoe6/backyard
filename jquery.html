@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+</head>
+
+
+<body onload="onLoadFunc();">
+<h1 id="mainHeading">Hello hello<h1>
+  <button onclick="clicketyButton();">Clickety clickety!!</button>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script>
+
+function onLoadFunc() {
+
+}
+
+function bgMainChange() {
+  let hexColor = Math.floor(Math.random()*16777215).toString(16);
+  $('#mainHeading').css('backgroundColor','#'+hexColor);
+}
+
+function clicketyButton() {
+  let hexColor = Math.floor(Math.random()*16777215).toString(16);
+  $('#mainHeading').css('color','#'+hexColor);
+  setTimeout(bgMainChange, 2000);
+}
+
+
+  </script>
+</body>
+
+
+</html>
